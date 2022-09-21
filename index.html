@@ -49,6 +49,7 @@
   </nav>
 
   <!-- ========== HEADER SECTION ========== -->
+  <div id="particles-js"></div>
   <section id="home" name="home"></section>
   <div id="headerwrap">
     <div class="container">
@@ -138,6 +139,12 @@
 
   <!-- Template Main Javascript File -->
   <script src="static/js/main.js"></script>
+  <script src="static/js/particles.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'static/json/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
 
 </body>
 </html>
