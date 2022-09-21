@@ -90,6 +90,14 @@ hr {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
+}
+
+canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
 }
 
 #headerwrap h1 {
