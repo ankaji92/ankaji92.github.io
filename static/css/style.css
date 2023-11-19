@@ -74,7 +74,27 @@ hr {
    ========================================================================== */
 
 #headerwrap {
-  background: linear-gradient( 0deg, rgba(26,26,26,1), rgba(0,0,0,0)), url(../img/bg.jpg) no-repeat center top;
+  background: url(../img/bg_gradient.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 700px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.aboutwrap {
+  background: url(../img/shinjuku_gradient.JPG) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -124,7 +144,6 @@ canvas{
 /* Footer Wrap */
 
 #f {
-  background: #1a1a1a;
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center
