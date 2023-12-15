@@ -25,3 +25,6 @@ jQuery(document).ready(function( $ ) {
 
 
 });
+
+window.addEventListener('DOMContentLoaded', animate);
+window.addEventListener('resize', onWindowResize, false);
