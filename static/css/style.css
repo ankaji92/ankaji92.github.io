@@ -158,8 +158,8 @@ hr {
 }
 
 .workCanvas {
-  min-height: 600px;
-  min-width: 600px;
+  height: 100%;
+  width: 100%;
 }
 
 /* Footer Wrap */
